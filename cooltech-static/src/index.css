@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #ffffff;
+    color: #0a2540;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@layer utilities {
+  .btn-scale { transition: transform 0.15s ease; }
+  .btn-scale:active { transform: scale(0.97); }
+  .gradient-hero {
+    background: linear-gradient(135deg, #0a2540 0%, #0d3460 50%, #1a4a7a 100%);
+  }
+  .gradient-card {
+    background: linear-gradient(135deg, #0a2540 0%, #1a4a7a 100%);
+  }
+  .text-accent { color: #00b4d8; }
+  .bg-accent { background-color: #00b4d8; }
+  .border-accent { border-color: #00b4d8; }
+}
