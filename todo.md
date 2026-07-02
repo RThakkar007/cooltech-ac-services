@@ -81,3 +81,17 @@
 - [x] Vitest unit tests for routers (17 tests passing)
 - [x] Final UI polish and animations
 - [x] Push code to GitHub repository
+
+## Phase 12: Patan, Gujarat Localization (Phase 1 City)
+- [x] Update hero section: city selector shows Patan as default selected city
+- [x] Remove other cities from hero (Delhi NCR, Mumbai, etc.) — show "Patan, Gujarat" only with "More cities coming soon"
+- [x] Update hero subtitle and CTA text to reference Patan
+- [x] Update map default coordinates to Patan, Gujarat (23.8493° N, 72.1266° E)
+- [x] Update technician seed locations to Patan area coordinates
+- [x] Update booking address default city to "Patan, Gujarat"
+- [x] Update footer service area to Patan, Gujarat
+- [x] Update all hardcoded city references (Delhi NCR, Mumbai) across pages
+- [x] Update TechnicianLocator map center to Patan
+- [x] Update LiveTracking map center to Patan
+- [x] Add "Serving Patan, Gujarat" badge on homepage
+- [x] Push changes to GitHub
